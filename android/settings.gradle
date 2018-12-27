@@ -1,0 +1,3 @@
+rootProject.name = 'HappyMom'
+
+include ':app'
