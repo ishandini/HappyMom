@@ -6,7 +6,6 @@ const ListItem = ({placeName, placeImage, onItemPressed}) => {
         <TouchableOpacity onPress={onItemPressed}>
             <View style={styles.listStyle} >
                 <Image 
-                    // resizeMode='contain'
                     source={placeImage} 
                     style={styles.placeImageStyle} 
                     />
